@@ -30,7 +30,7 @@ Edited by Vy Nghia
 <body>
 <!-- Music -->
 <audio autoplay="autopaly">
-	<source src="https://www.nhaccuatui.com/mh/auto/7qdedxf6T5jq" type="audio/mp3">
+	<iframe src="https://www.nhaccuatui.com/mh/auto/mChkrxMm3WHA" width="620" height="382" frameborder="0" allowfullscreen></iframe>
 </audio>  
 <!-- Main -->
 <div id="main">
@@ -66,7 +66,8 @@ Edited by Vy Nghia
 			Mình muốn nói với Cậu:<br />
 			Cậu à <span class="keyword"> tớ đã say nắng từ khi nhìn vào đôi mắt của cậu </span>;<br />
 			Cái nhìn của cậu <span class="keyword">đã đánh gục con tim của tớ</span>;<br /><br />
-			<span class="keyword">Cô gái à</span> - Tớ thích cậu - mãi mãi<br />			
+			<span class="keyword">Cô gái à</span> - Tớ thích cậu - mãi mãi<br />		
+            <img src ="oanh.jpg" alt="Ảnh Kim Oanh" title"Kim Oanh" width="300px" height="auto" />			
 		</div>
 		<!-- END TEXT -->
 		
@@ -90,7 +91,6 @@ Edited by Vy Nghia
 <!-- Copyright/Watermaak -->
 <div style="text-align:center;margin:0px 0; font:normal 14px/24px 'MicroSoft YaHei';">
 <p> By : Nguyễn Công Khuê
-</div><iframe src="https://www.nhaccuatui.com/mh/auto/7qdedxf6T5jq" width="620" height="382" frameborder="0" allowfullscreen></iframe>
 
 <!-- [!] CHANGE TIME HERRE [!] -->
 <script type="text/javascript">
@@ -102,7 +102,6 @@ together.setHours(20);
 together.setMinutes(0);
 together.setSeconds(0);
 together.setMilliseconds(0);
-
 if (!document.createElement('canvas').getContext) {
 	var msg = document.createElement("div");
 	msg.id = "errorMsg";
@@ -116,12 +115,10 @@ if (!document.createElement('canvas').getContext) {
 	setTimeout(function () {
 		startHeartAnimation();
 	}, 5000);
-
 	timeElapse(together);
 	setInterval(function () {
 		timeElapse(together);
 	}, 500);
-
 	adjustCodePosition();
 	$("#code").typewriter();
 }
